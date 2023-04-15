@@ -1,0 +1,51 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package hoja.de.trabajo.no.pkg5;
+
+/**
+ *
+ * @author waldemar
+ */
+public class HojaDeTrabajoNo5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner (System.in);
+        
+        System.out.print("Ingrese el primer número: ");
+        int a = scanner.nextInt();
+        
+        System.out.print("Ingrese el segundo número: ");
+        int b = scanner.nextInt();
+        
+        System.out.print("Ingrese el tercer número: ");
+        int c = scanner.nextInt();
+        
+        System.out.print("Ingrese el cuarto número: ");
+        int d = scanner.nextInt();
+        
+        int suma = a + b;
+        int producto = c * d;
+        
+        if (suma % 1 == 0){
+            System.out.println("La suma es un número entero:" + suma);
+        } else {
+            System.out.println("La suma es un número decimal:" + suma);
+        }
+        
+        if (producto % 1 == 0 ){
+            System.out.println("El producto es un número entero:" + producto);
+        } else {
+            System.out.println("El producto es un número decimal:" + producto);
+        }
+        
+        
+     
+        
+    }
+    
+}
